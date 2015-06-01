@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="30">
+  <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sim_1/new/tb_stream_proc.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_stream_proc.vhd"/>
+        <Attr Name="ImportTime" Val="1407152956"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_receiver.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_receiver.vhd"/>
+        <Attr Name="ImportTime" Val="1407244266"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_MAXI_rd.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_MAXI_rd.vhd"/>
+        <Attr Name="ImportTime" Val="1407241599"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_data_flow.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_data_flow.vhd"/>
+        <Attr Name="ImportTime" Val="1407162227"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_dataToAxis.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_dataToAxis.vhd"/>
+        <Attr Name="ImportTime" Val="1415892225"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_control_unit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_control_unit.vhd"/>
+        <Attr Name="ImportTime" Val="1407422832"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_top_lvl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd"/>
+        <Attr Name="ImportTime" Val="1408626514"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../axi_pulser_receiver_v4/tb_receiver_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../axi_pulser_receiver_v4/tb_dataToAxis_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../axi_pulser_receiver_v4/tb_data_flow_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../axi_pulser_receiver_v4/tb_MAXI_rd_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../axi_pulser_receiver_v4/tb_control_unit_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../axi_pulser_receiver_v4/tb_top_lvl_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_pulser_1ch_v2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_pulser_1ch_v2.vhd"/>
+        <Attr Name="ImportTime" Val="1415975212"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../axi_pulser_receiver_v4/tb_pulser_1ch_v2_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_receiver_frame.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/tb_receiver_frame_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/tb_top_lvl_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="tb_top_lvl"/>
+      <Option Name="SrcSet" Val="sources_1"/>
+      <Option Name="XSimWcfgFile" Val="$PPRDIR/tb_top_lvl_behav.wcfg"/>
+      <Option Name="NLNetlistMode" Val="funcsim"/>
+    </Config>
+  </FileSet>
+</DARoots>

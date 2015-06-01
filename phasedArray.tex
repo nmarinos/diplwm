@@ -379,36 +379,36 @@ To MAX4940 της MAXIM είναι μία τετρακάναλη, ψηφιακή
 
 \subsubsection{Register map}
 Ενσωματωμένος στο Control Unit βρίσκεται ο χώρος των registers. Αυτοί χρησιμοποιούνται για τον έλεγχο όλου του συστήματος. Στο πίνακα \ref{Registers} φαίνονται όλοι οι registers.
+
 \begin{table}
-\center
-\begin{tabular}{|c|l|}
+\begin{tabularx}{\linewidth}{|c|l|X|}
 \hline 
-Address (hex) & Register \\
+Address (hex) & Register name& Description \\
 \hline 
 \hline 
-0x00 & control\_reg \\
+0x00 & control\_reg & control register\\
 \hline 
-0x04 & status\_reg \\
+0x04 & status\_reg & status register \\
 \hline 
-0x08 & freq\_div\_reg \\
+0x08 & freq\_div\_reg & pulser patterns frequency division. Sets the length of each step of the pattern\\
 \hline 
-0x0C & p\_patt\_reg \\
+0x0C & p\_patt\_reg & positive pattern register\\
 \hline 
-0x10 & clamp\_patt\_reg \\
+0x10 & clamp\_patt\_reg & clamp pattern register\\
 \hline 
-0x14 & n\_patt\_reg \\
+0x14 & n\_patt\_reg & negative pattern register\\
 \hline 
-0x18 & capt\_delay\_reg \\
+0x18 & capt\_delay\_reg & capture delay register. Sets the delay in axi clock periods (100MHz) from the pulse to the start of the capture\\
 \hline 
-0x1C & capt\_length\_reg \\
+0x1C & capt\_length\_reg & capture length. Sets the number of samples \\
 \hline 
-0x20 & pulse\_period\_reg \\
+0x20 & pulse\_period\_reg & Sets the pulse repetition period in axi clk periods (100 MHz)\\
 \hline 
-0x24 & mo\_base\_addr\_reg \\
+0x24 & mo\_base\_addr\_reg & base address of the mask and offset configurations\\
 \hline 
-0x28 & mo\_base\_stteps\_reg \\
+0x28 & mo\_base\_stteps\_reg & number of different mask and offset configurations\\
 \hline
-\end{tabular} 
+\end{tabularx} 
 \caption{Register map}
 \label{Registers} 
 \end{table} 
@@ -445,13 +445,13 @@ bit & name & description \\
 \hline
 32-4 & - & reserved \\
 \hline
-3 & error_bit & asserts to '1' when an error has occured  \\
+3 & error\_bit & asserts to '1' when an error has occured  \\
 \hline
-2 &  capture_busy_bit & asserts to '1' when the receiver is busy\\
+2 &  capture\_busy\_bit & asserts to '1' when the receiver is busy\\
 \hline
-1 & running_bit & asserts to '1' when the core is busy\\
+1 & running\_bit & asserts to '1' when the core is busy\\
 \hline
-0 & sys_ready_bit & asserts to '1' when the core is ready to run \\
+0 & sys\_ready\_bit & asserts to '1' when the core is ready to run \\
 \hline
 \end{tabularx} 
 \caption{status register 0x04}

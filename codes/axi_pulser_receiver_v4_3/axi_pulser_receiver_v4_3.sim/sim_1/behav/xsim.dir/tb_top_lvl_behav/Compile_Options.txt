@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "tb_top_lvl_behav" --prj "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.sim/sim_1/behav/tb_top_lvl.prj" "work.tb_top_lvl" 

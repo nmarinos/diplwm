@@ -1,0 +1,25 @@
+\BOOKMARK [0][-]{chapter.1}{Εισαγωγή}{}% 1
+\BOOKMARK [1][-]{section.1.1}{field-programmable\040gate\040array\040\(FPGA\)}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Μη καταστροφικός έλεγχος \(NDT\)}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Συγχρονισμένη συστοιχία υπερήχων \(Ultrasonic Phased array\)}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Γενική περιγραφή και απαιτήσεις συστήματος}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Περιγραφή υποσυστημάτων}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Zedboard}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{7-inch\040Zed\040Touch\040Display\040kit}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.3}{MAX4940\040evaluation\040board}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.4}{AD9279\040evaluation\040board}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.5}{MAX4936A\040evaluation\040kit}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.6}{Υπολογιστής}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.7}{Τροφοδοτικό υψηλών και χαμηλών τάσεων}{section.2.1}% 13
+\BOOKMARK [1][-]{section.2.2}{Απαιτήσεις συστήματος}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{Ρυθμίσεις συστήματος}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{Διαμόρφωση δέσμης \(Beamforming\)}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{Αυτόνομη λειτουργία του συστήματος}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.4}{Απαιτήσεις μνήμης και εύρος διαύλων μεταφοράς δεδομένων}{section.2.2}% 18
+\BOOKMARK [0][-]{chapter.3}{Σχεδιασμός του συστήματος}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Στάδια σχεδιασμού}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.1.1}{Σχεδιασμός του πυρήνα παραγωγής παλμών και λήψης δεδομένων}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.2}{Σχεδιασμός του συστήματος}{section.3.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.3}{Προγραμματισμός του επεξεργαστή}{section.3.1}% 23
+\BOOKMARK [1][-]{section.3.2}{Υλοποίηση του συστήματος}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.2.1}{AXI\040pulser\040receiver}{section.3.2}% 25

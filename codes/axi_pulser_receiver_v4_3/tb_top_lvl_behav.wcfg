@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_lvl_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_top_lvl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_top_lvl/uut/adc_clk_in_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_clk_in_p</obj_property>
+      <obj_property name="ObjectShortName">adc_clk_in_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/frame_in_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">frame_in_p</obj_property>
+      <obj_property name="ObjectShortName">frame_in_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/din_p" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din_p[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_p[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/choose_receiver_frame/i_receiver_frame/rst_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_in</obj_property>
+      <obj_property name="ObjectShortName">rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/choose_receiver_frame/i_receiver_frame/adc_clk_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_clk_out</obj_property>
+      <obj_property name="ObjectShortName">adc_clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/choose_receiver_frame/i_receiver_frame/adc_sel_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_sel_out</obj_property>
+      <obj_property name="ObjectShortName">adc_sel_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/choose_receiver_frame/i_receiver_frame/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/M_AXIS_TVALID" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/M_AXIS_TDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_AXIS_TDATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TDATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/M_AXIS_TLAST" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">M_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/M_AXIS_TREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/choose_receiver_frame/i_receiver_frame/receiver_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">receiver_ready</obj_property>
+      <obj_property name="ObjectShortName">receiver_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/choose_receiver_frame/i_receiver_frame/alligning_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alligning_out</obj_property>
+      <obj_property name="ObjectShortName">alligning_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/choose_receiver_frame/i_receiver_frame/allign_error_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">allign_error_out</obj_property>
+      <obj_property name="ObjectShortName">allign_error_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_lvl/uut/i_control_unit/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+</wave_config>

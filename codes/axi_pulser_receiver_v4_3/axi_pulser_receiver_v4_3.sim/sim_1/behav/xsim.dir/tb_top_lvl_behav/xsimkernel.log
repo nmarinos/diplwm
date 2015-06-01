@@ -1,0 +1,5 @@
+Running: xsim.dir/tb_top_lvl_behav/xsimk.exe -simmode gui -wdb tb_top_lvl_behav.wdb -simrunnum 0 -socket 57206
+Design successfully loaded
+Design Loading CPU Usage: 124 ms
+Simulation completed
+Simulation CPU Usage: 3228 ms

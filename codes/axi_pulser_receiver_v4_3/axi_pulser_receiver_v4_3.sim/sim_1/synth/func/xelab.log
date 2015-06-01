@@ -1,0 +1,32 @@
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L secureip --snapshot tb_top_lvl_func_synth --prj C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.sim/sim_1/synth/func/tb_top_lvl.prj work.tb_top_lvl 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.sim/sim_1/synth/func/tb_top_lvl_func_synth.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_stream_proc.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_receiver.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_MAXI_rd.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_data_flow.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_dataToAxis.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_control_unit.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_pulser_1ch_v2.vhd" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic channels [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:59]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic pattern_bits [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:60]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic offset_bits [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:61]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic data_num_bits [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:62]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic freq_div_bits [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:63]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic maxis_raddr_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:64]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_s_axi_data_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:65]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_s_axi_addr_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:66]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_m_axi_id_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:67]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_m_axi_addr_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:68]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_m_axi_data_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:69]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_m_axi_awuser_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:70]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_m_axi_aruser_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:71]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_m_axi_wuser_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:72]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_m_axi_ruser_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:73]
+ERROR: [VRFC 10-380] binding entity axi_pulser_receiver_v4 does not have generic c_m_axi_buser_width [C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd:74]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_top_lvl in library work failed.

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Sun Aug 24 18:31:53 2014
+# Process ID: 8648
+# Log file: C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.runs/synth_1/axi_pulser_receiver_v4.rds
+# Journal file: C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source axi_pulser_receiver_v4.tcl

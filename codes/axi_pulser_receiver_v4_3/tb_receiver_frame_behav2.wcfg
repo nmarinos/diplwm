@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_receiver_frame_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_receiver_frame" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_receiver_frame/uut/frame_in_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">frame_in_p</obj_property>
+      <obj_property name="ObjectShortName">frame_in_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/rst_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_in</obj_property>
+      <obj_property name="ObjectShortName">rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/din_p" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din_p[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_p[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/adc_clk_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_clk_out</obj_property>
+      <obj_property name="ObjectShortName">adc_clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/adc_sel_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_sel_out</obj_property>
+      <obj_property name="ObjectShortName">adc_sel_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_data_serdes_s[0:7][5:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data_serdes_s[0:7][5:0]</obj_property>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_s[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0][5:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data_serdes_s[0][5:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_s[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1][5:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data_serdes_s[1][5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_s[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2][5:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data_serdes_s[2][5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_s[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3][5:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data_serdes_s[3][5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_s[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4][5:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data_serdes_s[4][5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_s[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5][5:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data_serdes_s[5][5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_s[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6][5:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data_serdes_s[6][5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_s[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7][5:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data_serdes_s[7][5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/adc_data_serdes_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_data_serdes_d[0:7][5:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data_serdes_d[0:7][5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/adc_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_data[0:7][11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data[0:7][11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0][11:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data[0][11:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1][11:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data[1][11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2][11:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data[2][11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3][11:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data[3][11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4][11:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data[4][11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5][11:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data[5][11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6][11:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data[6][11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_receiver_frame/uut/adc_data[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7][11:0]</obj_property>
+         <obj_property name="ObjectShortName">adc_data[7][11:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/adc_data_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_data_d[0:7][11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data_d[0:7][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/adc_frame_serdes_s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_frame_serdes_s[5:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_frame_serdes_s[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/adc_frame_serdes_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_frame_serdes_d[5:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_frame_serdes_d[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/frame" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">frame[11:0]</obj_property>
+      <obj_property name="ObjectShortName">frame[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_receiver_frame/uut/allign_error_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">allign_error_out</obj_property>
+      <obj_property name="ObjectShortName">allign_error_out</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,11 @@
+vhdl work "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.sim/sim_1/synth/func/tb_top_lvl_func_synth.vhd"
+vhdl work "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_stream_proc.vhd"
+vhdl work "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_receiver.vhd"
+vhdl work "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_MAXI_rd.vhd"
+vhdl work "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_data_flow.vhd"
+vhdl work "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_dataToAxis.vhd"
+vhdl work "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_control_unit.vhd"
+vhdl work "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_top_lvl.vhd"
+vhdl work "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4/axi_pulser_receiver_v4.srcs/sim_1/new/tb_pulser_1ch_v2.vhd"
+verilog work "C:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v"
+nosort

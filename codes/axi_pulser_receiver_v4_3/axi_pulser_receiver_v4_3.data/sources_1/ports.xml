@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="2">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="pulse_out_p">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="pulse_out_clamp">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="pulse_out_n">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="din_p">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="din_n">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="S_AXI_AWADDR">
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="S_AXI_AWPROT">
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="S_AXI_WDATA">
+			<Port Id="31" Dir="IN"/>
+			<Port Id="30" Dir="IN"/>
+			<Port Id="29" Dir="IN"/>
+			<Port Id="28" Dir="IN"/>
+			<Port Id="27" Dir="IN"/>
+			<Port Id="26" Dir="IN"/>
+			<Port Id="25" Dir="IN"/>
+			<Port Id="24" Dir="IN"/>
+			<Port Id="23" Dir="IN"/>
+			<Port Id="22" Dir="IN"/>
+			<Port Id="21" Dir="IN"/>
+			<Port Id="20" Dir="IN"/>
+			<Port Id="19" Dir="IN"/>
+			<Port Id="18" Dir="IN"/>
+			<Port Id="17" Dir="IN"/>
+			<Port Id="16" Dir="IN"/>
+			<Port Id="15" Dir="IN"/>
+			<Port Id="14" Dir="IN"/>
+			<Port Id="13" Dir="IN"/>
+			<Port Id="12" Dir="IN"/>
+			<Port Id="11" Dir="IN"/>
+			<Port Id="10" Dir="IN"/>
+			<Port Id="9" Dir="IN"/>
+			<Port Id="8" Dir="IN"/>
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="S_AXI_WSTRB">
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="S_AXI_BRESP">
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="S_AXI_ARADDR">
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="S_AXI_ARPROT">
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="S_AXI_RDATA">
+			<Port Id="31" Dir="OUT"/>
+			<Port Id="30" Dir="OUT"/>
+			<Port Id="29" Dir="OUT"/>
+			<Port Id="28" Dir="OUT"/>
+			<Port Id="27" Dir="OUT"/>
+			<Port Id="26" Dir="OUT"/>
+			<Port Id="25" Dir="OUT"/>
+			<Port Id="24" Dir="OUT"/>
+			<Port Id="23" Dir="OUT"/>
+			<Port Id="22" Dir="OUT"/>
+			<Port Id="21" Dir="OUT"/>
+			<Port Id="20" Dir="OUT"/>
+			<Port Id="19" Dir="OUT"/>
+			<Port Id="18" Dir="OUT"/>
+			<Port Id="17" Dir="OUT"/>
+			<Port Id="16" Dir="OUT"/>
+			<Port Id="15" Dir="OUT"/>
+			<Port Id="14" Dir="OUT"/>
+			<Port Id="13" Dir="OUT"/>
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="S_AXI_RRESP">
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXIS_TDATA">
+			<Port Id="127" Dir="OUT"/>
+			<Port Id="126" Dir="OUT"/>
+			<Port Id="125" Dir="OUT"/>
+			<Port Id="124" Dir="OUT"/>
+			<Port Id="123" Dir="OUT"/>
+			<Port Id="122" Dir="OUT"/>
+			<Port Id="121" Dir="OUT"/>
+			<Port Id="120" Dir="OUT"/>
+			<Port Id="119" Dir="OUT"/>
+			<Port Id="118" Dir="OUT"/>
+			<Port Id="117" Dir="OUT"/>
+			<Port Id="116" Dir="OUT"/>
+			<Port Id="115" Dir="OUT"/>
+			<Port Id="114" Dir="OUT"/>
+			<Port Id="113" Dir="OUT"/>
+			<Port Id="112" Dir="OUT"/>
+			<Port Id="111" Dir="OUT"/>
+			<Port Id="110" Dir="OUT"/>
+			<Port Id="109" Dir="OUT"/>
+			<Port Id="108" Dir="OUT"/>
+			<Port Id="107" Dir="OUT"/>
+			<Port Id="106" Dir="OUT"/>
+			<Port Id="105" Dir="OUT"/>
+			<Port Id="104" Dir="OUT"/>
+			<Port Id="103" Dir="OUT"/>
+			<Port Id="102" Dir="OUT"/>
+			<Port Id="101" Dir="OUT"/>
+			<Port Id="100" Dir="OUT"/>
+			<Port Id="99" Dir="OUT"/>
+			<Port Id="98" Dir="OUT"/>
+			<Port Id="97" Dir="OUT"/>
+			<Port Id="96" Dir="OUT"/>
+			<Port Id="95" Dir="OUT"/>
+			<Port Id="94" Dir="OUT"/>
+			<Port Id="93" Dir="OUT"/>
+			<Port Id="92" Dir="OUT"/>
+			<Port Id="91" Dir="OUT"/>
+			<Port Id="90" Dir="OUT"/>
+			<Port Id="89" Dir="OUT"/>
+			<Port Id="88" Dir="OUT"/>
+			<Port Id="87" Dir="OUT"/>
+			<Port Id="86" Dir="OUT"/>
+			<Port Id="85" Dir="OUT"/>
+			<Port Id="84" Dir="OUT"/>
+			<Port Id="83" Dir="OUT"/>
+			<Port Id="82" Dir="OUT"/>
+			<Port Id="81" Dir="OUT"/>
+			<Port Id="80" Dir="OUT"/>
+			<Port Id="79" Dir="OUT"/>
+			<Port Id="78" Dir="OUT"/>
+			<Port Id="77" Dir="OUT"/>
+			<Port Id="76" Dir="OUT"/>
+			<Port Id="75" Dir="OUT"/>
+			<Port Id="74" Dir="OUT"/>
+			<Port Id="73" Dir="OUT"/>
+			<Port Id="72" Dir="OUT"/>
+			<Port Id="71" Dir="OUT"/>
+			<Port Id="70" Dir="OUT"/>
+			<Port Id="69" Dir="OUT"/>
+			<Port Id="68" Dir="OUT"/>
+			<Port Id="67" Dir="OUT"/>
+			<Port Id="66" Dir="OUT"/>
+			<Port Id="65" Dir="OUT"/>
+			<Port Id="64" Dir="OUT"/>
+			<Port Id="63" Dir="OUT"/>
+			<Port Id="62" Dir="OUT"/>
+			<Port Id="61" Dir="OUT"/>
+			<Port Id="60" Dir="OUT"/>
+			<Port Id="59" Dir="OUT"/>
+			<Port Id="58" Dir="OUT"/>
+			<Port Id="57" Dir="OUT"/>
+			<Port Id="56" Dir="OUT"/>
+			<Port Id="55" Dir="OUT"/>
+			<Port Id="54" Dir="OUT"/>
+			<Port Id="53" Dir="OUT"/>
+			<Port Id="52" Dir="OUT"/>
+			<Port Id="51" Dir="OUT"/>
+			<Port Id="50" Dir="OUT"/>
+			<Port Id="49" Dir="OUT"/>
+			<Port Id="48" Dir="OUT"/>
+			<Port Id="47" Dir="OUT"/>
+			<Port Id="46" Dir="OUT"/>
+			<Port Id="45" Dir="OUT"/>
+			<Port Id="44" Dir="OUT"/>
+			<Port Id="43" Dir="OUT"/>
+			<Port Id="42" Dir="OUT"/>
+			<Port Id="41" Dir="OUT"/>
+			<Port Id="40" Dir="OUT"/>
+			<Port Id="39" Dir="OUT"/>
+			<Port Id="38" Dir="OUT"/>
+			<Port Id="37" Dir="OUT"/>
+			<Port Id="36" Dir="OUT"/>
+			<Port Id="35" Dir="OUT"/>
+			<Port Id="34" Dir="OUT"/>
+			<Port Id="33" Dir="OUT"/>
+			<Port Id="32" Dir="OUT"/>
+			<Port Id="31" Dir="OUT"/>
+			<Port Id="30" Dir="OUT"/>
+			<Port Id="29" Dir="OUT"/>
+			<Port Id="28" Dir="OUT"/>
+			<Port Id="27" Dir="OUT"/>
+			<Port Id="26" Dir="OUT"/>
+			<Port Id="25" Dir="OUT"/>
+			<Port Id="24" Dir="OUT"/>
+			<Port Id="23" Dir="OUT"/>
+			<Port Id="22" Dir="OUT"/>
+			<Port Id="21" Dir="OUT"/>
+			<Port Id="20" Dir="OUT"/>
+			<Port Id="19" Dir="OUT"/>
+			<Port Id="18" Dir="OUT"/>
+			<Port Id="17" Dir="OUT"/>
+			<Port Id="16" Dir="OUT"/>
+			<Port Id="15" Dir="OUT"/>
+			<Port Id="14" Dir="OUT"/>
+			<Port Id="13" Dir="OUT"/>
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXIS_TKEEP">
+			<Port Id="15" Dir="OUT"/>
+			<Port Id="14" Dir="OUT"/>
+			<Port Id="13" Dir="OUT"/>
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_AWID">
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_AWADDR">
+			<Port Id="31" Dir="OUT"/>
+			<Port Id="30" Dir="OUT"/>
+			<Port Id="29" Dir="OUT"/>
+			<Port Id="28" Dir="OUT"/>
+			<Port Id="27" Dir="OUT"/>
+			<Port Id="26" Dir="OUT"/>
+			<Port Id="25" Dir="OUT"/>
+			<Port Id="24" Dir="OUT"/>
+			<Port Id="23" Dir="OUT"/>
+			<Port Id="22" Dir="OUT"/>
+			<Port Id="21" Dir="OUT"/>
+			<Port Id="20" Dir="OUT"/>
+			<Port Id="19" Dir="OUT"/>
+			<Port Id="18" Dir="OUT"/>
+			<Port Id="17" Dir="OUT"/>
+			<Port Id="16" Dir="OUT"/>
+			<Port Id="15" Dir="OUT"/>
+			<Port Id="14" Dir="OUT"/>
+			<Port Id="13" Dir="OUT"/>
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_AWLEN">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_AWSIZE">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_AWBURST">
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_AWCACHE">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_AWPROT">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_AWQOS">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_AWUSER">
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_WDATA">
+			<Port Id="31" Dir="OUT"/>
+			<Port Id="30" Dir="OUT"/>
+			<Port Id="29" Dir="OUT"/>
+			<Port Id="28" Dir="OUT"/>
+			<Port Id="27" Dir="OUT"/>
+			<Port Id="26" Dir="OUT"/>
+			<Port Id="25" Dir="OUT"/>
+			<Port Id="24" Dir="OUT"/>
+			<Port Id="23" Dir="OUT"/>
+			<Port Id="22" Dir="OUT"/>
+			<Port Id="21" Dir="OUT"/>
+			<Port Id="20" Dir="OUT"/>
+			<Port Id="19" Dir="OUT"/>
+			<Port Id="18" Dir="OUT"/>
+			<Port Id="17" Dir="OUT"/>
+			<Port Id="16" Dir="OUT"/>
+			<Port Id="15" Dir="OUT"/>
+			<Port Id="14" Dir="OUT"/>
+			<Port Id="13" Dir="OUT"/>
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_WSTRB">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_WUSER">
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_BID">
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="M_AXI_BRESP">
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="M_AXI_BUSER">
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="M_AXI_ARID">
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_ARADDR">
+			<Port Id="31" Dir="OUT"/>
+			<Port Id="30" Dir="OUT"/>
+			<Port Id="29" Dir="OUT"/>
+			<Port Id="28" Dir="OUT"/>
+			<Port Id="27" Dir="OUT"/>
+			<Port Id="26" Dir="OUT"/>
+			<Port Id="25" Dir="OUT"/>
+			<Port Id="24" Dir="OUT"/>
+			<Port Id="23" Dir="OUT"/>
+			<Port Id="22" Dir="OUT"/>
+			<Port Id="21" Dir="OUT"/>
+			<Port Id="20" Dir="OUT"/>
+			<Port Id="19" Dir="OUT"/>
+			<Port Id="18" Dir="OUT"/>
+			<Port Id="17" Dir="OUT"/>
+			<Port Id="16" Dir="OUT"/>
+			<Port Id="15" Dir="OUT"/>
+			<Port Id="14" Dir="OUT"/>
+			<Port Id="13" Dir="OUT"/>
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_ARLEN">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_ARSIZE">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_ARBURST">
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_ARCACHE">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_ARPROT">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_ARQOS">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_ARUSER">
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="M_AXI_RID">
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="M_AXI_RDATA">
+			<Port Id="31" Dir="IN"/>
+			<Port Id="30" Dir="IN"/>
+			<Port Id="29" Dir="IN"/>
+			<Port Id="28" Dir="IN"/>
+			<Port Id="27" Dir="IN"/>
+			<Port Id="26" Dir="IN"/>
+			<Port Id="25" Dir="IN"/>
+			<Port Id="24" Dir="IN"/>
+			<Port Id="23" Dir="IN"/>
+			<Port Id="22" Dir="IN"/>
+			<Port Id="21" Dir="IN"/>
+			<Port Id="20" Dir="IN"/>
+			<Port Id="19" Dir="IN"/>
+			<Port Id="18" Dir="IN"/>
+			<Port Id="17" Dir="IN"/>
+			<Port Id="16" Dir="IN"/>
+			<Port Id="15" Dir="IN"/>
+			<Port Id="14" Dir="IN"/>
+			<Port Id="13" Dir="IN"/>
+			<Port Id="12" Dir="IN"/>
+			<Port Id="11" Dir="IN"/>
+			<Port Id="10" Dir="IN"/>
+			<Port Id="9" Dir="IN"/>
+			<Port Id="8" Dir="IN"/>
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="M_AXI_RRESP">
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="M_AXI_RUSER">
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Port Id="intr_out" Dir="OUT"/>
+		<Port Id="pulser_clk" Dir="IN"/>
+		<Port Id="pulse_out_en" Dir="OUT"/>
+		<Port Id="adc_clk_in_p" Dir="IN"/>
+		<Port Id="adc_clk_in_n" Dir="IN"/>
+		<Port Id="frame_in_p" Dir="IN"/>
+		<Port Id="frame_in_n" Dir="IN"/>
+		<Port Id="adc_clk_out" Dir="OUT"/>
+		<Port Id="S_AXI_ACLK" Dir="IN"/>
+		<Port Id="S_AXI_ARESETN" Dir="IN"/>
+		<Port Id="S_AXI_AWVALID" Dir="IN"/>
+		<Port Id="S_AXI_AWREADY" Dir="OUT"/>
+		<Port Id="S_AXI_WVALID" Dir="IN"/>
+		<Port Id="S_AXI_WREADY" Dir="OUT"/>
+		<Port Id="S_AXI_BVALID" Dir="OUT"/>
+		<Port Id="S_AXI_BREADY" Dir="IN"/>
+		<Port Id="S_AXI_ARVALID" Dir="IN"/>
+		<Port Id="S_AXI_ARREADY" Dir="OUT"/>
+		<Port Id="S_AXI_RVALID" Dir="OUT"/>
+		<Port Id="S_AXI_RREADY" Dir="IN"/>
+		<Port Id="M_AXIS_ACLK" Dir="IN"/>
+		<Port Id="M_AXIS_ARESETN" Dir="IN"/>
+		<Port Id="M_AXIS_TVALID" Dir="OUT"/>
+		<Port Id="M_AXIS_TLAST" Dir="OUT"/>
+		<Port Id="M_AXIS_TREADY" Dir="IN"/>
+		<Port Id="M_AXI_ACLK" Dir="IN"/>
+		<Port Id="M_AXI_ARESETN" Dir="IN"/>
+		<Port Id="M_AXI_AWLOCK" Dir="OUT"/>
+		<Port Id="M_AXI_AWVALID" Dir="OUT"/>
+		<Port Id="M_AXI_AWREADY" Dir="IN"/>
+		<Port Id="M_AXI_WLAST" Dir="OUT"/>
+		<Port Id="M_AXI_WVALID" Dir="OUT"/>
+		<Port Id="M_AXI_WREADY" Dir="IN"/>
+		<Port Id="M_AXI_BVALID" Dir="IN"/>
+		<Port Id="M_AXI_BREADY" Dir="OUT"/>
+		<Port Id="M_AXI_ARLOCK" Dir="OUT"/>
+		<Port Id="M_AXI_ARVALID" Dir="OUT"/>
+		<Port Id="M_AXI_ARREADY" Dir="IN"/>
+		<Port Id="M_AXI_RLAST" Dir="IN"/>
+		<Port Id="M_AXI_RVALID" Dir="IN"/>
+		<Port Id="M_AXI_RREADY" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

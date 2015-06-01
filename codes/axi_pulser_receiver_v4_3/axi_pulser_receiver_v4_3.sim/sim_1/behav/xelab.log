@@ -1,0 +1,94 @@
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L secureip --snapshot tb_top_lvl_behav --prj C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.sim/sim_1/behav/tb_top_lvl.prj work.tb_top_lvl 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sources_1/new/synchronizer.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sources_1/new/stream_proc.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sources_1/new/receiver.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sources_1/new/pulser_1ch_v2.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sources_1/new/M_AXI_read_data.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sources_1/new/dataToAxis.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sources_1/new/control_unit.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sources_1/new/axi_pulser_receiver_v4.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sources_1/new/receiver_frame.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sim_1/new/tb_stream_proc.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sim_1/new/tb_receiver.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sim_1/new/tb_MAXI_rd.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sim_1/new/tb_data_flow.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sim_1/new/tb_dataToAxis.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sim_1/new/tb_control_unit.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sim_1/new/tb_top_lvl.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sim_1/new/tb_pulser_1ch_v2.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/nikolaos.marinos/xil_IP_projects/axi_pulser_receiver_v4_3/axi_pulser_receiver_v4_3.srcs/sim_1/new/tb_receiver_frame.vhd" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package std.textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package vl.vl_types
+Compiling architecture behavioral of entity work.synchronizer [\synchronizer(2)\]
+Compiling architecture behavioral of entity work.pulser_1ch_v2 [\pulser_1ch_v2(32,8,3)\]
+Compiling module secureip.xil_iserdese2_vl_mod15
+Compiling module secureip.xil_iserdese2_vl_mod21
+Compiling module secureip.xil_iserdese2_vl_mod5
+Compiling module secureip.xil_iserdese2_vl_mod0
+Compiling module secureip.xil_iserdese2_vl_mod27
+Compiling module secureip.xil_iserdese2_vl_mod1
+Compiling module secureip.xil_iserdese2_vl_mod14
+Compiling module secureip.xil_iserdese2_vl_mod6
+Compiling module secureip.xil_iserdese2_vl_mod13
+Compiling module secureip.xil_iserdese2_vl_mod30
+Compiling module secureip.xil_iserdese2_vl_mod31
+Compiling module secureip.xil_iserdese2_vl_mod2
+Compiling module secureip.xil_iserdese2_vl_mod3
+Compiling module secureip.xil_iserdese2_vl_mod4
+Compiling module secureip.xil_iserdese2_vl_mod16
+Compiling module secureip.xil_iserdese2_vl_mod32
+Compiling module secureip.xil_iserdese2_vl_mod33
+Compiling module secureip.xil_iserdese2_vl_mod34
+Compiling module secureip.xil_iserdese2_vl_mod17
+Compiling module secureip.xil_iserdese2_vl_mod25
+Compiling module secureip.xil_iserdese2_vl_mod20
+Compiling module secureip.xil_iserdese2_vl_mod18
+Compiling module secureip.xil_iserdese2_vl_mod19
+Compiling module secureip.xil_iserdese2_vl_mod26
+Compiling module secureip.xil_iserdese2_vl_mod7
+Compiling module secureip.xil_iserdese2_vl_mod22
+Compiling module secureip.xil_iserdese2_vl_mod24
+Compiling module secureip.xil_iserdese2_vl_mod10
+Compiling module secureip.xil_iserdese2_vl_mod9
+Compiling module secureip.xil_iserdese2_vl_mod11
+Compiling module secureip.xil_iserdese2_vl_mod29
+Compiling module secureip.xil_iserdese2_vl_mod12
+Compiling module secureip.xil_iserdese2_vl_mod23
+Compiling module secureip.xil_iserdese2_vl_mod28
+Compiling module secureip.xil_iserdese2_vl_mod8
+Compiling module secureip.vioi_inlogic_shell
+Compiling module secureip.vioi_inlogic_ship(DATA_RATE="DDR...
+Compiling module secureip.B_ISERDESE2(DATA_RATE="DDR",DATA...
+Compiling module secureip.ISERDESE2_WRAP(DATA_RATE="DDR",D...
+Compiling architecture iserdese2_v of entity unisim.ISERDESE2 [\ISERDESE2("DDR",6,"FALSE","FALS...]
+Compiling architecture ibufds_v of entity unisim.IBUFDS [\IBUFDS("DONT_CARE",false,"FALSE...]
+Compiling architecture ibufgds_v of entity unisim.IBUFGDS [\IBUFGDS("DONT_CARE",false,"0",t...]
+Compiling architecture bufio_v of entity unisim.BUFIO [bufio_default]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR("3","VIRTEX4")(1,1,1,7)\]
+Compiling architecture behavioral of entity work.receiver_frame [\receiver_frame(8)\]
+Compiling architecture arch_imp of entity work.control_unit_s_axi [\control_unit_s_axi(8,32,8,16,3,...]
+Compiling architecture behavioral of entity work.stream_proc [\stream_proc(8,8,16)\]
+Compiling architecture behavioral of entity work.dataToAxis [\dataToAxis(8)\]
+Compiling architecture behavioral of entity work.M_AXI_read_data [\M_AXI_read_data(8,8,1,32,32,1,1...]
+Compiling architecture behavioral of entity work.axi_pulser_receiver_v4 [\axi_pulser_receiver_v4(8,32,8,1...]
+Compiling architecture behavioral of entity work.tb_top_lvl
+Waiting for 7 sub-compilation(s) to finish...
+Built simulation snapshot tb_top_lvl_behav
